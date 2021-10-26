@@ -1,2 +1,2 @@
 # Snake-Game-Js
-Simple Snake Game made in JavaScript
+Classic Snake Game made in JavaScript.
