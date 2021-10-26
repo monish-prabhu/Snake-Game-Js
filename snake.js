@@ -1,5 +1,5 @@
-import { getInputDirection } from "./input";
-import { isOutGrid } from "./grid";
+import { getInputDirection } from "./input.js";
+import { isOutGrid } from "./grid.js";
 export const SNAKE_SPEED = 4;
 let newSegments = 0;
 const snakeBody = [{x:11,y:11}];
