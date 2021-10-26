@@ -1,7 +1,7 @@
-import {SNAKE_SPEED} from '/Snake-Game-Js/snake.js';
-import {snakeHit, draw as drawSnake,update as updateSnake} from '/Snake-Game-Js/snake.js';
-import {draw as drawFood, update as updateFood} from '/Snake-Game-Js/food.js';
-import { snakeOutOfBounds } from '/Snake-Game-Js/snake.js';
+import {SNAKE_SPEED} from 'snake.js';
+import {snakeHit, draw as drawSnake,update as updateSnake} from 'snake.js';
+import {draw as drawFood, update as updateFood} from 'food.js';
+import { snakeOutOfBounds } from 'snake.js';
 let lastRenderTime = 0;
 let gameStatus = false;
 const gameBoard = document.getElementById('game-board');

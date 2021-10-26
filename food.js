@@ -1,5 +1,5 @@
-import {expandSnake, onSnake} from '/Snake-Game-Js/snake.js';
-import {getRandomGridPoint} from '/Snake-Game-Js/grid.js';
+import {expandSnake, onSnake} from 'snake.js';
+import {getRandomGridPoint} from 'grid.js';
 let food = {x:5, y:7};
 const EXPANSION_RATE = 2;
 export let update = function(){
