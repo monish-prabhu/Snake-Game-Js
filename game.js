@@ -12,7 +12,7 @@ function main(currentTime){
     if(gameStatus)
         {
             if(confirm('Lost-Press ok to restart.'))
-                window.location = '/';
+                window.location = '/Snake-Game-Js/';
             return;
         }
     
