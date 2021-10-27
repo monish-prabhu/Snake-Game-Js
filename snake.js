@@ -1,6 +1,6 @@
 import { getInputDirection } from "./input.js";
 import { isOutGrid } from "./grid.js";
-export const SNAKE_SPEED = 4;
+export const SNAKE_SPEED = 5;
 let newSegments = 0;
 const snakeBody = [{x:11,y:11}];
 export let update = function(){
@@ -52,4 +52,8 @@ export let snakeHit = function(){
 };
 export let snakeOutOfBounds = function(){
     return isOutGrid(snakeBody[0]);
+}
+
+export let getSnakeLength = function(){
+    return snakeBody.length;
 }
